@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<title>Access4U</title>
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+
+
+<link rel="stylesheet" id="bootstrap-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/themes/hestia/assets/bootstrap/css/bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="hestia-font-sizes-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/themes/hestia/assets/css/font-sizes.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://trangngu65.github.io/Access4UWPP/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="hestia_style-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/themes/hestia/style.min.css" type="text/css" media="all">
+<style id="hestia_style-inline-css" type="text/css">
+
+		.elementor-page .hestia-about > .container {
+		  width: 100%;
+		}
+		.elementor-page .pagebuilder-section {
+		  padding: 0;
+		}
+		.elementor-page .title-in-content, .elementor-page .image-in-page {
+		  display: none;
+		}
+		
+		.home.elementor-page .main-raised > section.hestia-about {
+		  overflow: visible;
+		}
+		
+		.elementor-editor-active .navbar {
+		  pointer-events: none;
+		}
+		
+		.elementor-editor-active #elementor.elementor-edit-mode .elementor-element-overlay {
+		  z-index: 1000000;
+		}
+		
+		.elementor-page.page-template-template-fullwidth .blog-post-wrapper > .container {
+		  width: 100%;
+		}
+		.elementor-page.page-template-template-fullwidth .blog-post-wrapper > .container .col-md-12 {
+		  padding: 0;
+		}
+		.elementor-page.page-template-template-fullwidth article.section {
+		  padding: 0;
+		}
+
+		.elementor-text-editor p, 
+		.elementor-text-editor h1, 
+		.elementor-text-editor h2, 
+		.elementor-text-editor h3, 
+		.elementor-text-editor h4, 
+		.elementor-text-editor h5, 
+		.elementor-text-editor h6 {
+		  font-size: inherit;
+		}
+.hestia-top-bar, .hestia-top-bar .widget.widget_shopping_cart .cart_list {
+			background-color: #363537
+		}
+		.hestia-top-bar .widget .label-floating input[type=search]:-webkit-autofill {
+			-webkit-box-shadow: inset 0 0 0px 9999px #363537
+		}.hestia-top-bar, .hestia-top-bar .widget .label-floating input[type=search], .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_shopping_cart:before {
+			color: #ffffff
+		} 
+		.hestia-top-bar .widget .label-floating input[type=search]{
+			-webkit-text-fill-color:#ffffff !important 
+		}
+		.hestia-top-bar div.widget.widget_shopping_cart:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_search form.form-group:before{
+			background-color: #ffffff
+		}.hestia-top-bar a, .hestia-top-bar .top-bar-nav li a {
+			color: #ffffff
+		}
+		.hestia-top-bar ul li a[href*="mailto:"]:before, .hestia-top-bar ul li a[href*="tel:"]:before{
+			background-color: #ffffff
+		}
+		.hestia-top-bar a:hover, .hestia-top-bar .top-bar-nav li a:hover {
+			color: #eeeeee
+		}
+		.hestia-top-bar ul li:hover a[href*="mailto:"]:before, .hestia-top-bar ul li:hover a[href*="tel:"]:before{
+			background-color: #eeeeee
+		}
+		
+	
+		a, 
+		.navbar .dropdown-menu li:hover > a,
+		.navbar .dropdown-menu li:focus > a,
+		.navbar .dropdown-menu li:active > a,
+		.navbar .navbar-nav > li .dropdown-menu li:hover > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:hover,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:focus,
+		a:hover, 
+		.card-blog a.moretag:hover, 
+		.card-blog a.more-link:hover, 
+		.widget a:hover,
+		.has-text-color.has-accent-color,
+		p.has-text-color a {
+		    color:#105489;
+		}
+		
+		.svg-text-color{
+			fill:#105489;
+		}
+		
+		.pagination span.current, .pagination span.current:focus, .pagination span.current:hover {
+			border-color:#105489
+		}
+		
+		button,
+		button:hover,
+		.woocommerce .track_order button[type="submit"],
+		.woocommerce .track_order button[type="submit"]:hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="button"],
+		input[type="button"]:hover,
+		input[type="submit"],
+		input[type="submit"]:hover,
+		input#searchsubmit, 
+		.pagination span.current, 
+		.pagination span.current:focus, 
+		.pagination span.current:hover,
+		.btn.btn-primary,
+		.btn.btn-primary:link,
+		.btn.btn-primary:hover, 
+		.btn.btn-primary:focus, 
+		.btn.btn-primary:active, 
+		.btn.btn-primary.active, 
+		.btn.btn-primary.active:focus, 
+		.btn.btn-primary.active:hover,
+		.btn.btn-primary:active:hover, 
+		.btn.btn-primary:active:focus, 
+		.btn.btn-primary:active:hover,
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.hestia-sidebar-open.btn.btn-rose:focus,
+		.hestia-sidebar-close.btn.btn-rose:focus,
+		.label.label-primary,
+		.hestia-work .portfolio-item:nth-child(6n+1) .label,
+		.nav-cart .nav-cart-content .widget .buttons .button,
+		.has-accent-background-color[class*="has-background"] {
+		    background-color: #105489;
+		}
+		
+		@media (max-width: 768px) { 
+	
+			.navbar-default .navbar-nav>li>a:hover,
+			.navbar-default .navbar-nav>li>a:focus,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:hover,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:focus,
+			.navbar button.navbar-toggle:hover,
+			.navbar .navbar-nav li:hover > a i {
+			    color: #105489;
+			}
+		}
+		
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close),
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button),
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		input[type="submit"], 
+		input[type="button"], 
+		.btn.btn-primary,
+		.widget_product_search button[type="submit"],
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    -webkit-box-shadow: 0 2px 2px 0 rgba(16,84,137,0.14),0 3px 1px -2px rgba(16,84,137,0.2),0 1px 5px 0 rgba(16,84,137,0.12);
+		    box-shadow: 0 2px 2px 0 rgba(16,84,137,0.14),0 3px 1px -2px rgba(16,84,137,0.2),0 1px 5px 0 rgba(16,84,137,0.12);
+		}
+		
+		.card .header-primary, .card .content-primary,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    background: #105489;
+		}
+		
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button):hover,
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close):hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="submit"]:hover,
+		input[type="button"]:hover,
+		input#searchsubmit:hover, 
+		.widget_product_search button[type="submit"]:hover,
+		.pagination span.current, 
+		.btn.btn-primary:hover, 
+		.btn.btn-primary:focus, 
+		.btn.btn-primary:active, 
+		.btn.btn-primary.active, 
+		.btn.btn-primary:active:focus, 
+		.btn.btn-primary:active:hover, 
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.pagination span.current:hover,
+		.everest-forms button[type=submit].everest-forms-submit-button:hover,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:focus,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:active {
+			-webkit-box-shadow: 0 14px 26px -12px rgba(16,84,137,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(16,84,137,0.2);
+		    box-shadow: 0 14px 26px -12px rgba(16,84,137,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(16,84,137,0.2);
+			color: #fff;
+		}
+		
+		.form-group.is-focused .form-control {
+			background-image: -webkit-gradient(linear,left top, left bottom,from(#105489),to(#105489)),-webkit-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: -webkit-linear-gradient(linear,left top, left bottom,from(#105489),to(#105489)),-webkit-linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: linear-gradient(linear,left top, left bottom,from(#105489),to(#105489)),linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+		}
+		
+		.navbar:not(.navbar-transparent) li:not(.btn):hover > a,
+		.navbar li.on-section:not(.btn) > a, 
+		.navbar.full-screen-menu.navbar-transparent li:not(.btn):hover > a,
+		.navbar.full-screen-menu .navbar-toggle:hover,
+		.navbar:not(.navbar-transparent) .nav-cart:hover, 
+		.navbar:not(.navbar-transparent) .hestia-toggle-search:hover {
+				color:#105489
+		}
+		
+			.header-filter-gradient { 
+				background: linear-gradient(45deg, rgba(168,29,132,1) 0%, rgb(234,57,111) 100%); 
+			}
+			.has-text-color.has-header-gradient-color { color: #a81d84; }
+			.has-header-gradient-background-color[class*="has-background"] { background-color: #a81d84; }
+			
+		.has-text-color.has-background-color-color { color: #ffffff; }
+		.has-background-color-background-color[class*="has-background"] { background-color: #ffffff; }
+		
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){ padding-top:15px;  padding-bottom:15px;  padding-left:33px;  padding-right:33px; }
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, input[type="submit"].search-submit, .hestia-view-cart-wrapper .added_to_cart.wc-forward, .woocommerce-product-search button, .woocommerce-cart .actions .button, #secondary div[id^=woocommerce_price_filter] .button, .woocommerce div[id^=woocommerce_widget_cart].widget .buttons .button, .searchform input[type=submit], .searchform button, .search-form:not(.media-toolbar-primary) input[type=submit], .search-form:not(.media-toolbar-primary) button, .woocommerce-product-search input[type=submit], .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){border-radius:25px;}
+@media (min-width: 769px){
+			.page-header.header-small .hestia-title,
+			.page-header.header-small .title,
+			h1.hestia-title.title-in-content,
+			.main article.section .has-title-font-size {
+				font-size: 42px;
+			}}
+</style>
+<link rel="stylesheet" id="hestia_fonts-css" href="https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7CRoboto+Slab%3A400%2C700&subset=latin%2Clatin-ext&ver=3.0.6" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-animations-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-legacy-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-10-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/elementor/css/post-10.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/elementor/css/global.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-26-css" href="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/elementor/css/post-26.css" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.5.3" type="text/css" media="all">
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
+
+
+
+
+
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+			<style type="text/css" id="wp-custom-css">
+			/*Responsiveness==================*/
+
+/*Nav===========================*/
+/*nav pages*/
+.navbar .navbar-nav>li a{
+	font-weight:bold;
+	color:black;
+}
+/*logo name*/
+.navbar .navbar-header .navbar-brand p { 
+	font-weight:bold;
+	color:black;
+}
+/*Font size nav pages*/
+.navbar .navbar-nav>li>a{
+	font-size: 14px;
+}
+/*Remove box-shadow*/
+
+.navbar{
+	box-shadow:none;
+}
+
+/*Dropdown Menu==================*/
+.dropdown-menu{
+	box-shadow:none;
+	border-radius: 0px !important;
+}
+/*CTA BUTTON======================*/
+/*Sharp edges - radius 0*/
+#main-navigation ul.nav>li{
+	border-radius:0;
+}
+/*Remove box shadow*/
+body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close), body:not(.woocommerce-page) .button:not([class^="fl-"]):not(hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button), div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, input[type="submit"], input[type="button"], .btn.btn-primary, .widget_product_search button[type="submit"], .hestia-sidebar-open.btn.btn-rose, .hestia-sidebar-close.btn.btn-rose, .everest-forms button[type=submit].everest-forms-submit-button{
+	box-shadow:none !important;
+}
+/*Footer========================*/
+ol, ul{
+	list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */ 
+}
+/*Change the color*/
+a, .navbar .dropdown-menu li:hover > a, .navbar .dropdown-menu li:focus > a, .navbar .dropdown-menu li:active > a, .navbar .navbar-nav > li .dropdown-menu li:hover > a, body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a, body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:hover, body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:focus, a:hover, .card-blog a.moretag:hover, .card-blog a.more-link:hover, .widget a:hover, .has-text-color.has-accent-color, p.has-text-color a{
+	color:black;
+	font-weight:450;
+}
+/*Copyright footer apperance*/
+footer.footer.footer-black {
+  background-color: #F5F5F5;
+	padding:0px;
+}
+/*Copyright text*/
+footer.footer.footer-black .copyright, footer.footer.footer-black h4, footer.footer.footer-black h5, footer.footer.footer-black i{
+	color:black;
+	font-weight:600;
+}		</style>
+		</head>
+
+<body class="home page-template page-template-elementor_header_footer page page-id-26 custom-background blog-post header-layout-default elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-26">
+		<div class="wrapper  default ">
+		<header class="header ">
+			<div style="display: none"></div>		<nav class="navbar navbar-default navbar-fixed-top  hestia_left">
+						<div class="container">
+						<div class="navbar-header">
+			<div class="title-logo-wrapper">
+				<a class="navbar-brand" href="https://trangngu65.github.io/Access4UWPP/" title="Access4U">
+					<p>Access4U</p></a>
+			</div>
+								<div class="navbar-toggle-wrapper">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="sr-only">Toggle Navigation</span>
+			</button>
+					</div>
+				</div>
+		<div id="main-navigation" class="collapse navbar-collapse"><ul id="menu-primary-menu" class="nav navbar-nav"><li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-26 current_page_item menu-item-31 active"><a title="Home" href="https://trangngu65.github.io/Access4UWPP/">Home</a></li>
+<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a title="Modular" href="https://trangngu65.github.io/Access4UWPP/modular/">Modular</a></li>
+<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-57 dropdown"><a title="Portable" href="https://trangngu65.github.io/Access4UWPP/portable/" class="dropdown-toggle">Portable <span class="caret-wrap"><span class="caret"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></span></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a title="Threshold Ramps" href="https://trangngu65.github.io/Access4UWPP/threshold-ramps/">Threshold Ramps</a></li>
+	<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a title="Mini Ramps" href="https://trangngu65.github.io/Access4UWPP/mini-ramps/">Mini Ramps</a></li>
+</ul>
+</li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a title="Accessories" href="https://trangngu65.github.io/Access4UWPP/accessories/">Accessories</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a title="Resources" href="https://trangngu65.github.io/Access4UWPP/resources/">Resources</a></li>
+<li id="menu-item-70" class="btn btn-primary menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a title="Contact Us" href="#">Contact Us</a></li>
+</ul></div>			</div>
+					</nav>
+				</header>
+		<div data-elementor-type="wp-page" data-elementor-id="26" class="elementor elementor-26" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-7445386d elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-invisible" data-id="7445386d" data-element_type="section" data-settings='{"background_background":"classic","animation":"none"}'>
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e10358c" data-id="e10358c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-0894390 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0894390" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-eed9796" data-id="eed9796" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3fa581c elementor-widget elementor-widget-heading" data-id="3fa581c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-xxl">All people</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-69c3266 elementor-widget elementor-widget-heading" data-id="69c3266" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-xxl">should be</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fc9d012 elementor-widget elementor-widget-heading" data-id="fc9d012" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-xxl">enabled...</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a6f5d73 elementor-widget elementor-widget-text-editor" data-id="a6f5d73" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4>Access4U was established to provide people with affordable, easy access out of their homes.</h4></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c482e2e elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="c482e2e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Explore our products</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-54085f3" data-id="54085f3" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-381a3c3 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="381a3c3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-436657a" data-id="436657a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-386a1e8 elementor-widget elementor-widget-heading" data-id="386a1e8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Our Products</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-bfb22c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bfb22c7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wider">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-da1ea9b" data-id="da1ea9b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4bc4b3e elementor-widget elementor-widget-heading" data-id="4bc4b3e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Modular</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ea12f84 elementor-widget elementor-widget-image" data-id="ea12f84" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="600" height="471" src="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/10583.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/10583.jpg 600w,https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/10583-300x236.jpg 300w" sizes="(max-width: 600px) 100vw, 600px">											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d2da128 elementor-widget elementor-widget-text-editor" data-id="d2da128" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span>Modular Ramps can be configured to your home</span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bb09d1f elementor-align-center elementor-widget elementor-widget-button" data-id="bb09d1f" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">See More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4a2d6c5" data-id="4a2d6c5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4ba6634 elementor-widget elementor-widget-heading" data-id="4ba6634" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Portable</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a94e99f elementor-widget elementor-widget-image" data-id="a94e99f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="600" height="459" src="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/9905.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/9905.jpg 600w,https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/9905-300x230.jpg 300w" sizes="(max-width: 600px) 100vw, 600px">											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4e7b9b4 elementor-widget elementor-widget-text-editor" data-id="4e7b9b4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>A compact solution for those who are always on the go</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-245feb2 elementor-align-center elementor-widget elementor-widget-button" data-id="245feb2" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">See More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2ca3657" data-id="2ca3657" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0cb2de1 elementor-widget elementor-widget-heading" data-id="0cb2de1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Accessories</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-38bee0f elementor-widget elementor-widget-image" data-id="38bee0f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="500" height="366" src="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/10641.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/10641.jpg 500w,https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/10641-300x220.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e93568e elementor-widget elementor-widget-text-editor" data-id="e93568e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Build-ins to make your ramps more usable everyday</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-25a0a77 elementor-align-center elementor-widget elementor-widget-button" data-id="25a0a77" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">See More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-848f8bc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="848f8bc" data-element_type="section" data-settings='{"background_background":"classic"}'>
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5e8a6d8" data-id="5e8a6d8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4796dba elementor-widget elementor-widget-heading" data-id="4796dba" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Why access4U ramps?</h4>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9f22242" data-id="9f22242" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-17794ed elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="17794ed" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a79af21" data-id="a79af21" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-75c5223 elementor-widget elementor-widget-heading" data-id="75c5223" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Exceptional Service</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-713b6c9 elementor-widget elementor-widget-text-editor" data-id="713b6c9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>We believe in providing quality service for our customers</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-99086e5" data-id="99086e5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f84562e elementor-widget elementor-widget-heading" data-id="f84562e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Attractive</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7980965 elementor-widget elementor-widget-text-editor" data-id="7980965" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Our shiny rust-proof ramps instantly stand out in a crowd</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-cbb484d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cbb484d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a7bf097" data-id="a7bf097" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7ec5dcd elementor-widget elementor-widget-heading" data-id="7ec5dcd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Easy to build</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fd379df elementor-widget elementor-widget-text-editor" data-id="fd379df" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Our customers consistently tell us that our ramps have the simplest construction in the business</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4b6f824" data-id="4b6f824" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a38c072 elementor-widget elementor-widget-heading" data-id="a38c072" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Durable</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e41db08 elementor-widget elementor-widget-text-editor" data-id="e41db08" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>American made, quality aluminum build that comes with a three-year warranty</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1c5debe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1c5debe" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7810dc5" data-id="7810dc5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2c3c3df elementor-widget elementor-widget-heading" data-id="2c3c3df" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Modular</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d7a9c62 elementor-widget elementor-widget-text-editor" data-id="d7a9c62" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Unlike wood or concrete ramps, ours are temporary structures that don’t require a permit or devalue your property. Moving? Take it when you go.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fc16373" data-id="fc16373" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ebffabc elementor-widget elementor-widget-heading" data-id="ebffabc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">ADA Compliant</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7beb635 elementor-widget elementor-widget-text-editor" data-id="7beb635" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Our ramps meat ADA standards for both residential and commercial buildings</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3658cc2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3658cc2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6a1c21a" data-id="6a1c21a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a5d493f elementor-widget elementor-widget-heading" data-id="a5d493f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">What our customers say</h4>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-0a0c133 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0a0c133" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4226216" data-id="4226216" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6472847 elementor-widget elementor-widget-heading" data-id="6472847" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Customer 1</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5b28bd1 elementor-widget elementor-widget-text-editor" data-id="5b28bd1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>“It was so easy, my Little Leaguer put it together…the best”</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b73c8ff" data-id="b73c8ff" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7137c7f elementor-widget elementor-widget-heading" data-id="7137c7f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Customer 2</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6189a59 elementor-widget elementor-widget-text-editor" data-id="6189a59" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>“The most attractive and easy to use ramps out there.”</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-416dd3c" data-id="416dd3c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-24bcc55 elementor-widget elementor-widget-heading" data-id="24bcc55" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Customer 3</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d8d285f elementor-widget elementor-widget-text-editor" data-id="d8d285f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>“I can’t name another ramp that’s up and ready in under 2 hours.”<br></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-db493ea elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="db493ea" data-element_type="section" data-settings='{"background_background":"classic"}'>
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41d2e59" data-id="41d2e59" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c55db0b elementor-widget elementor-widget-heading" data-id="c55db0b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">See Your Project?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ad4c7c8 elementor-widget elementor-widget-text-editor" data-id="ad4c7c8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Check out our product selection guide</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3b3f154 elementor-align-center elementor-widget elementor-widget-button" data-id="3b3f154" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Go to Guide</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1715fd6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1715fd6" data-element_type="section" data-settings='{"background_background":"classic"}'>
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-352a834" data-id="352a834" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-372b906 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="372b906" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-79df0f3" data-id="79df0f3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-55d89f7 elementor-widget elementor-widget-heading" data-id="55d89f7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Get in Touch</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-15ab5f3 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="15ab5f3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="xr_tl xr_s100">Access4U Inc. </span><span class="xr_tl xr_s100">PO Box 2535 </span><span class="xr_tl xr_s100">Lower Burrell, Pennsylvania 15068 </span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-10a8c22 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="10a8c22" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-927d1f7 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="927d1f7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="xr_tl xr_s100">Tel: 800-355-7025         </span></p><p><span class="xr_tl xr_s101"><span class="xr_s100">Email:</span><span class="xr_s102"> </span><span class="xr_s102">customerservice@access4uinc.com</span></span></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b1fe05f" data-id="b1fe05f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-334be42 elementor-widget elementor-widget-heading" data-id="334be42" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Site Links</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-eed2b4e elementor-widget__width-auto elementor-widget elementor-widget-wp-widget-custom_html" data-id="eed2b4e" data-element_type="widget" data-widget_type="wp-widget-custom_html.default">
+				<div class="elementor-widget-container">
+			<div class="textwidget custom-html-widget"><ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Modular</a></li>
+<li><a href="#">Portable</a></li>
+    <li><a href="#">Accessories</a></li>
+<li><a href="#">Resources</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7cbc9d6" data-id="7cbc9d6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b11ca6c elementor-widget elementor-widget-heading" data-id="b11ca6c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Products</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ff2d236 elementor-widget__width-auto elementor-widget elementor-widget-wp-widget-custom_html" data-id="ff2d236" data-element_type="widget" data-widget_type="wp-widget-custom_html.default">
+				<div class="elementor-widget-container">
+			<div class="textwidget custom-html-widget"><ul>
+    <li><a href="#">Modular</a></li>
+    <li><a href="#">Threshold</a></li>
+<li><a href="#">Mini</a></li>
+    <li><a href="#">Stairs</a></li>
+<li><a href="#">Gates</a></li>
+    <li><a href="#">Platform</a></li>
+</ul></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0d2f698" data-id="0d2f698" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b57428e elementor-align-justify elementor-widget elementor-widget-button" data-id="b57428e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Contact Us</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-120421e elementor-align-justify elementor-widget elementor-widget-button" data-id="120421e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Request a Quote</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ff3c5cb elementor-align-justify elementor-widget elementor-widget-button" data-id="ff3c5cb" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Become a Dealer</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-0345765 elementor-widget elementor-widget-image" data-id="0345765" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="105" height="84" src="https://trangngu65.github.io/Access4UWPP/wp-content/uploads/2020/11/10272.jpg" class="attachment-large size-large" alt="" loading="lazy">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+							<footer class="footer footer-black footer-big">
+						<div class="container">
+																<div class="hestia-bottom-footer-content">					<div class="copyright pull-right">
+				Powered by <a href="http://wordpress.org/" rel="nofollow">WordPress</a>			</div>
+			</div>			</div>
+					</footer>
+				</div>
+	
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-content/themes/hestia/assets/bootstrap/js/bootstrap.min.js" id="jquery-bootstrap-js"></script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="hestia_scripts-js-extra">
+/* <![CDATA[ */
+var requestpost = {"ajaxurl":"https:\/\/trangngu65.github.io\/Access4UWPP\/wp-admin\/admin-ajax.php","disable_autoslide":"","masonry":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-content/themes/hestia/assets/js/script.min.js" id="hestia_scripts-js"></script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-includes/js/jquery/ui/position.min.js" id="jquery-ui-position-js"></script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js" id="elementor-dialog-js"></script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js" id="swiper-js"></script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js" id="share-link-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.13","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/trangngu65.github.io\/Access4UWPP\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":26,"title":"Access4U","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="https://trangngu65.github.io/Access4UWPP/wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script>
+</body>
+</html>
